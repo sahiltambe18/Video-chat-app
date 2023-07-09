@@ -1,0 +1,27 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat&family=Roboto+Mono&display=swap');
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+@layer base{
+  video{
+    @apply w-96 lg:w-auto md:w-auto 
+  }
+}
+
+body {
+  background:
+    linear-gradient(rgba(0, 0, 0, 0.3),
+      rgba(0, 0, 0, 0.3));
+
+      font-family: 'Montserrat', sans-serif;
+      font-family: 'Roboto Mono', monospace;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
