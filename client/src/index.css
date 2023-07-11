@@ -7,7 +7,7 @@
 
 @layer base{
   video{
-    @apply w-96 lg:w-auto md:w-auto 
+    @apply w-96 lg:w-auto md:w-auto rounded-xl
   }
 }
 
@@ -25,3 +25,6 @@ body {
   padding: 0;
 }
 
+.videoPlayer{
+  @apply flex flex-col space-y-2 items-center
+}
