@@ -33,8 +33,12 @@ io.on("connection", (socket) => {
         io.to(data.to).emit("callAccepted", data.signal);
     });
 });
+const PORT = 5000
 
-const PORT = process.env.PORT || 5000;
+if (process.env.PORT) {
+    PORT = process.env.PORT    
+}
+
 
 server.listen(PORT , ()=>{
     console.log("server is live at http://localhost:5000")

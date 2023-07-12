@@ -7,7 +7,7 @@
 
 @layer base{
   video{
-    @apply w-96 lg:w-auto md:w-auto rounded-xl
+    @apply w-96 lg:w-[630px] md:w-auto rounded-xl
   }
 }
 
