@@ -8,7 +8,7 @@ import { useRef } from "react";
 
 const SocketContext = createContext();
 
-const socket = io('http://localhost:5000');
+const socket = io('https://video-server-3yjy.onrender.com');
 
 const ContextProvider = ({ children }) => {
 
