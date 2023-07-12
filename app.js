@@ -33,7 +33,7 @@ io.on("connection", (socket) => {
         io.to(data.to).emit("callAccepted", data.signal);
     });
 });
-const PORT = 5000
+let PORT = 5000
 
 if (process.env.PORT) {
     PORT = process.env.PORT    
