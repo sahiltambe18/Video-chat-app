@@ -7,8 +7,9 @@
 
 @layer base{
   video{
-    @apply w-96 lg:w-[630px] md:w-auto rounded-xl
+    @apply w-auto lg:w-[630px] md:w-auto rounded-xl
   }
+
 }
 
 body {
@@ -27,4 +28,8 @@ body {
 
 .videoPlayer{
   @apply flex flex-col space-y-2 items-center
+}
+
+.holder{
+  width: inherit;
 }
