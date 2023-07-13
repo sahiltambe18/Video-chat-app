@@ -7,7 +7,7 @@
 
 @layer base{
   video{
-    @apply w-auto lg:w-[630px] md:w-auto rounded-xl
+    @apply w-auto lg:w-[630px] md:w-auto  rounded-xl
   }
 
 }
@@ -17,7 +17,7 @@ body {
     linear-gradient(rgba(0, 0, 0, 0.3),
       rgba(0, 0, 0, 0.3));
 
-      
+      font-family: 'Montserrat', sans-serif;
       font-family: 'Roboto Mono', monospace;
 }
 
@@ -27,7 +27,7 @@ body {
 }
 
 .videoPlayer{
-  @apply flex flex-col space-y-2 items-center
+  @apply flex flex-col space-y-2 items-center object-cover
 }
 
 .holder{
